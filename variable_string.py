@@ -6,7 +6,6 @@ print('D = ',D)
 print()
 A = "I like programming"
 B = "with Python"
-print(D)
 D = A+ " "+B
 print(D)
 print("sum characters : ",len(D))
@@ -40,3 +39,15 @@ A = "I"
 B ='love-'
 C = "you"
 print(A, 3*B,C)
+
+
+#index string
+cars = "BMW TOYOTA SUZUKI FORD MAZDA"
+print(cars)
+print(cars[0])
+print(cars[1])
+print(cars[-1])
+print(cars[0:5])
+print(cars[:5])
+print(cars[5:])
+print(cars[-3:])
