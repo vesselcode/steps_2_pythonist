@@ -24,7 +24,7 @@ print(2*MIX[4].split(), ' ------->this operation multiply string') #add separato
 
 #list in list
 print()
-print('list in list')
+print('list in list ')
 DMIX=[car,MIX]
 print(DMIX)
 print('DMIX[0] =',DMIX[0])
