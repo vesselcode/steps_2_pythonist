@@ -3,44 +3,39 @@
 a = int (input("input value for a: "))
 b = int (input("input value for b: "))
 
-# Menggunakan operator penjumlahan
+#  operator penjumlahan
 c = a + b
-print ("Hasil %d + %d = %d" % (a,b,c))
+print ("result %d + %d = %d" % (a,b,c))
 
 # Operator Pengurangan
 c = a - b
-print ("Hasil %d - %d = %d" % (a,b,c))
+print ("result %d - %d = %d" % (a,b,c))
 
 # Operator Perkalian
 c = a * b
-print ("Hasil %d * %d = %d" % (a,b,c))
+print ("result %d * %d = %d" % (a,b,c))
 
 # Operator Pembagian
 c = a / b
-print ("Hasil %d / %d = %d" % (a,b,c))
+print ("result %d / %d = %d" % (a,b,c))
 
 # Operator Sisa Bagi
 c = a % b
-print ("Hasil %d %% %d = %d" % (a,b,c))
+print ("result %d %% %d = %d" % (a,b,c))
 
 # Operator Pangkat
 c = a ** b
-print ("Hasil %d ** %d = %d" % (a,b,c))
+print ("result %d ** %d = %d" % (a,b,c))
 
 print('----------assingment------------')
-# file: operator_penugasan.py
 
-# Ambil input untuk mengisi nilai
-#a = int(input("Inputkan nilai a: "))
-# ^
-# | contoh operator penugasan untuk mengisi nilai
 
 print('a = %d' %a)
 
-# Coba kita jumlahkan nilai a dengan opertor penugasan
+# try add a with assingment
 a += 5
 
-# Setelah nilai a ditambah 5, coba kita lihat isinya
+# after a add by 5, look the result
 print ("Value a after adding a += 5")
 print ("a = %d" % a)
 print('a -= 3    # add by 2\n'
