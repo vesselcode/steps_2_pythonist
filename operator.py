@@ -26,6 +26,8 @@ print ("result %d %% %d = %d" % (a,b,c))
 # Operator Pangkat
 c = a ** b
 print ("result %d ** %d = %d" % (a,b,c))
+print('hasil %r ** %r =%r' %(a,b,c))
+print("hasil %w ** %w =%w" %(a,b,c))
 
 print('----------assingment------------')
 
