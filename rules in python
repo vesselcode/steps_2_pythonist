@@ -1,0 +1,19 @@
+Typing
+
+Rules for creating an identifier
+1.  Can’t use a reserved word mainly because it will make confusion
+    for the compiler as well as it will give an error.
+    >>> break = 1
+    SyntaxError: invalid syntax
+2.  Can’t start an identifier with a digit (0-9)
+    >>> 123varname = 1
+    SyntaxError: invalid syntax
+3.  Should not contain any special character other than A-Z, a-z, _e
+    >>> var$name=1
+    File "<stdin>", line 1
+        var$name=1
+           ^
+        SyntaxError: invalid syntax
+4.  Don't use double underscores (_) in the beginning and at the end of the variable name
+    ie: __private__, __len__
+    because python use these to create special variables or functions in framework classes.
